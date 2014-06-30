@@ -1,0 +1,12 @@
+calpciGUI
+
+base on go open source GUI lib 'walk': https://github.com/lxn/walk
+
+How to build?
+1. go get github.com/lxn/walk
+2. go get github.com/akavel/rsrc
+   rsrc -manifest your_program.manifest -o rsrc.syso
+3. In the directory containing calpciGUI.go run
+      go build
+   To get rid of the cmd window, instead run
+      go build -ldflags="-H windowsgui"
