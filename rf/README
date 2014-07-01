@@ -1,0 +1,7 @@
+rf
+simple program to search binary file for specific string
+Usage:
+rf.exe filename magic
+filename: binary file name
+magic: the magic key word you want to search in binary file
+
